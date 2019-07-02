@@ -19,4 +19,9 @@ async def ping(ctx):
 @bot.command()
 async def tinn(ctx):
     await ctx.send('pong')
+    
+@bot.command()
+async def ting(ctx):
+    await ctx.send('pong')
+    
 bot.run(token)
