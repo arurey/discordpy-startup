@@ -16,7 +16,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def unti(ctx):
-    await ctx.send('ぶりゅ')
+async def 1(ctx):
+    await ctx.send('10')
     
 bot.run(token)
